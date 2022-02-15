@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "test-single": "mocha -r ts-node/register",
     "test:coverage": "nyc npm run test"
   },
   "author": "",

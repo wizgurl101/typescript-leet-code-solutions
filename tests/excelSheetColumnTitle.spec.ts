@@ -2,7 +2,7 @@ import { expect } from "chai";
 import "mocha";
 import convertToTitle from "../src/excelSheetColumnTitle/excelSheetColumnTitle";
 
-describe.skip("excel sheet column title solution tests", () => {
+describe("excel sheet column title solution tests", () => {
   it("should return A if input column number is 1", () => {
     let result = convertToTitle(1);
     expect(result).to.equal("A");

@@ -2,7 +2,7 @@ import { strict as assert } from "assert";
 import "mocha";
 import { removeDuplicatesFromUnsortedArray } from "../src/removeDuplicatesFromArray";
 
-describe.skip("remove duplicates from array solution tests", () => {
+describe("remove duplicates from array solution tests", () => {
   describe("remove duplicates from unsorted string array", () => {
     let testInput = [
       "abc1234",
