@@ -2,7 +2,7 @@ import { expect } from "chai";
 import "mocha";
 import { maxSubArraySolution1 } from "../src/MaximumSubarray/maximumSubarray";
 
-describe("maximum subarray solution 1", () => {
+describe.skip("maximum subarray solution 1", () => {
   it("should return 6 if input is [-2,1,-3,4,-1,2,1,-5,4]", () => {
     let result = maxSubArraySolution1([-2, 1, -3, 4, -1, 2, 1, -5, 4]);
     expect(result).to.equal(6);
