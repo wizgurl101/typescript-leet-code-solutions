@@ -1,14 +1,13 @@
 export const LenghtOfLastWord = (s: string): number => {
   // list of all the words in the string
   let words = [];
+  // an array to temp hold the current word
+  let current_word: string[] = [];
 
   // loop through the array
   for (let i = 0; i < s.length; i++) {
-    // an array to temp hold the current word
-    let current_word: string[] = [];
-
     // check if current character is an empty string
-    if (s[i] === ' ') {
+    if (s[i] === ' ' || i === s.length - 1) {
       // if it is
       // check that current word array is not empty
       if (current_word.length !== 0) {

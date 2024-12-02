@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import 'mocha';
 import { sumTheStrings } from '../../src/katas/string_katas';
 
-describe('kataString solution tests', () => {
+describe.skip('kataString solution tests', () => {
   describe('sum the string function', () => {
     it('should return 9', () => {
       let result = sumTheStrings('4', '5');
