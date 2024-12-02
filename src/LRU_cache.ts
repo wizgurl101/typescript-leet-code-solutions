@@ -1,10 +1,14 @@
 class LRUNode {
   key: number;
   val: number;
+  next: LRUNode | null;
+  previous: LRUNode | null;
 
   constructor(key: number, val: number) {
     this.key = key;
     this.val = val;
+    this.next = null;
+    this.previous = null;
   }
 }
 
