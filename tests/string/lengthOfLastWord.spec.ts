@@ -7,4 +7,9 @@ describe('the length of the last word ', () => {
     const result = LenghtOfLastWord('Hello World');
     expect(result).to.equal(5);
   });
+
+  it('should return 6 if input is "luffy is still joyboy"', () => {
+    const result = LenghtOfLastWord('luffy is still joyboy');
+    expect(result).to.equal(6);
+  });
 });
